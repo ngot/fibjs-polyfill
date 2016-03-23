@@ -1,13 +1,13 @@
 {
-  "name": "@fibjs/fibjs-polyfill",
-  "version": "1.0.0",
+  "name": "fibjs-polyfill",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "postinstall": "ln -s ./node_modules ./.modules",
+    "postinstall": "mkdir -p ../../.modules/ | rm -rf ../../.modules/fibjs-polyfill | mv ../fibjs-polyfill ../../.modules/fibjs-polyfill",
     "test": "fibjs test/test.js"
   },
   "repository": {
