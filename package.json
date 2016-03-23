@@ -1,0 +1,23 @@
+{
+  "name": "@fibjs/fibjs-polyfill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "postinstall": "ln -s ./node_modules ./.modules",
+    "test": "fibjs test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngot/fibjs-polyfill.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngot/fibjs-polyfill/issues"
+  },
+  "homepage": "https://github.com/ngot/fibjs-polyfill#readme"
+}
