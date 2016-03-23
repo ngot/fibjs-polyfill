@@ -5,7 +5,7 @@ polyfill for fibjs to be like Node.js
 ## Usage
 
 ```
-  npm install @fibjs/fibjs-polyfill
+  npm install fibjs-polyfill
 ```
 
 ## Usage
@@ -13,5 +13,5 @@ polyfill for fibjs to be like Node.js
 Just require it!
 
 ```
-  require('@fibjs/fibjs-polyfill')
+  require('fibjs-polyfill')
 ```
