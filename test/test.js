@@ -1,4 +1,6 @@
-require('../');
+require('../')({
+  global: global
+});
 
 run('./test-path.js');
 run('./test-umask.js');
